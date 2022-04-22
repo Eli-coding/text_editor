@@ -21,17 +21,17 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Text editor'
+        title: 'JATE'
       }),
 
-      new InjectManifest(),
+     // new InjectManifest(),
       new WebpackPwaManifest({
 
-        name: 'TODOs',
-        short_name: 'TODOs',
-        description: 'Keep track of important tasks!',
-        background_color: '#7eb4e2',
-        theme_color: '#7eb4e2',
+        name: 'Text editor',
+        short_name: 'JATE',
+        description: 'Just another text editor',
+        background_color: '#000000',
+        theme_color: '#000000',
         start_url: '/',
         publicPath: '/',
         icons: [
