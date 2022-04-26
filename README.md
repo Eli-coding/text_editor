@@ -17,6 +17,7 @@ The app is a single-page application that meets the PWA criteria. Additionally, 
 node index.js
 
 ## Usage
+![Screenshot (194)](https://user-images.githubusercontent.com/80432031/165194824-bf897f6b-514c-4280-b8d5-a17c93acde53.png)
 
 ## Licenses
 
